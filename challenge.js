@@ -1,5 +1,5 @@
 let areaEntrada = document.getElementById("entrada");
-let areaSalida = document.getElementById("resultado").readOnly = true;
+let areaSalida = document.getElementById("resultado");
 let btnEncryptar = document.getElementById("encriptar");
 let btnDesencryptar = document.getElementById("desencriptar");
 let btnCopy = document.getElementById("copy")
