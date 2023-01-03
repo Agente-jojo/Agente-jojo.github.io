@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge Johsan Murillo</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="logo">
+            <img src='imagenes/Logo.png' alt="Logo Alura">
+        </header>
+        <main>
+            <section class="caja">
+                <div>
+                    <textarea cols="30" rows="14" class='encriptador' id="entrada" required placeholder='Ingrese texto a Encriptar'></textarea>
+                    <p class="advertencia">&#9888; Solo letras minisculas y sin acentos &#9888;</p>
+                    <button class="botones" id="encriptar">Encriptar</button>                    
+                    <button class="botones" id="desencriptar">Desencriptar</button>                   
+                    <button class="botones" id="copy">Copiar</button>
+                
+                </div>
+                <div class="resultado">
+                    <textarea cols="30" rows="14" id="resultado"></textarea>
+                    
+                </div>
+            </section>
+           
+        </main>
+    </body>
+    <script src="challenge.js"></script>
+</html>
