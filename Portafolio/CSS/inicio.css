@@ -1,0 +1,128 @@
+.presentacion{
+  margin: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(106, 143, 184, 0.3);
+  border-radius: 10px;
+  max-width: fit-content;
+  min-height: fit-content;
+  margin-top: 40vh;
+  padding: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: eliminar 4s ease-in-out forwards;
+  animation-delay: 8s;
+  z-index: 2;
+}
+
+@keyframes eliminar {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  20%{
+    opacity: 0.75;
+    transform: translateY(-20%);
+  }
+  40%{
+    opacity: 0.50;
+    transform: translateY(-40%);
+  }
+  60%{
+    opacity: 0.25;
+    transform: translateY(-60%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+
+.presentacion__bienvenida{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-family: 'quicksand';
+}
+.presentacion h2 {
+  font-size: 45px;
+  margin: 0 25px;
+  text-align: center;
+}
+
+.presentacion h2 span{
+  font-size: 55px;
+  color: #A599D0;
+}
+
+.llamada{
+  max-width: 650px;
+  margin: 20px auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.presentacion a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 20px;
+  border: 2px solid #A599D0;
+  border-radius: 55px;
+  background-color: #06070B;
+}
+
+.about__me{
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 20px;
+  display: flex;
+}
+
+.contenedor__foto{
+  max-width: 500px;
+  margin-right: 100px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(217, 207, 172, 0.6);
+}
+
+#sobremi .sobremi__contenedor{
+  display: inline-block;
+  text-justify: auto;
+  justify-content: center;
+}
+#sobremi .sobremi__titulo{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-family: 'quicksand';
+
+}
+
+.sobremi__nombre, h3, p{
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.sobremi__nombre span{
+  font-size: 23px;
+  color: #D9CFAC;
+  font-weight: bold;
+  font-family: 'quicksand';
+}
+

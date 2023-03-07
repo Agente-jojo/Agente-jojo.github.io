@@ -1,0 +1,39 @@
+.head{
+  background-color: #C1D4EC;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1.2rem;
+  position: fixed;
+  z-index: 3;
+}
+
+.nav__list{
+  text-align: center;
+}
+
+.nav__items{
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-right: 1.2rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: 1seg;
+  color: #1B2133;
+}
+
+.icon{
+  font-size: 70px;
+}
+
+.escalado:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+
+
+
