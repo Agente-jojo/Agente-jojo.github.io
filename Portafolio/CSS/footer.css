@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1B2133;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer__media{
+  display: flex;
+}
+
+.disenador{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #C1D4EC;
+}
+.footer__items{
+  display: inline-block;
+  margin: 1.5rem .5rem .7rem;
+  color: #C1D4EC;
+  font-family: 'Quicksand', sans-serif;
+}
